@@ -1,0 +1,22 @@
+{
+    "caption": "Download XLSX from",
+    "fields": {
+        "AAI": {
+            "caption": "json_arrays",
+            "doc": "Each key should be a text in the format of a JSON array, that will be converted into different workbooks on the resulting Excel file.",
+            "editor": "key_value_list",
+            "name": "json_arrays",
+            "rank": 1,
+            "value": "text"
+        },
+        "AAZ": {
+            "caption": "Stop on Error",
+            "default_val": true,
+            "doc": "Stops the download if there are any errors.",
+            "editor": "DynamicValue",
+            "name": "stop_on_error",
+            "rank": 0,
+            "value": "boolean"
+        }
+    }
+}

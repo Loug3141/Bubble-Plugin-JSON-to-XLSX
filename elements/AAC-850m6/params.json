@@ -1,0 +1,39 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 16,
+        "width": 16
+    },
+    "display": "JSON to XLSX Converter",
+    "events": {
+        "AAQ": {
+            "caption": "error",
+            "name": "error"
+        }
+    },
+    "has_reset_fn": true,
+    "icon": "ion-android-checkbox-blank",
+    "property_applications": {
+        "MinWidth": true,
+        "resizable": true
+    },
+    "states": {
+        "AAR": {
+            "caption": "error_message",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "error_message",
+            "value": "text"
+        },
+        "AAS": {
+            "caption": "processed_data_report",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "processed_data_report",
+            "value": "text"
+        }
+    }
+}

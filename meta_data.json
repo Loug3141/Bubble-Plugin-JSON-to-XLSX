@@ -1,0 +1,11 @@
+{
+    "categories": {
+        "0": "data (things)"
+    },
+    "data_tracked": false,
+    "description": "Converts JSON arrays into a XLSX file with multiple sheets.",
+    "image": "//meta-q.cdn.bubble.io/f1745239776004x789745022514646300/Frame%201171277214.png",
+    "license": "open_source",
+    "name": "JSON to XLSX",
+    "plugin_instructions": "Place the \"JSON to XLSX converter\" element on the page and run the \"Download XLSX\" action."
+}
